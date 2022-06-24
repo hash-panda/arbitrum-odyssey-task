@@ -10,7 +10,7 @@ const weeks = ref(weekInfo())
     <div>
         <div class="mt-4 mx-48">
             <section class="text-gray-800 mb-3">
-                <div class="container mx-auto flex flex-col items-center py-12 px-4 text-center md:px-6 xl:max-w-3xl">
+                <div class="container mx-auto flex flex-col items-center py-12 px-4 text-center md:px-6 xl:max-w-1xl">
                     <h1 class="text-2xl font-bold leading-none sm:text-3xl">
                         <span class="text-violet-600">奥德赛 8 周任务</span>
                     </h1>
