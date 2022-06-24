@@ -25,6 +25,12 @@ const weeks = ref(weekInfo())
                             项目方 Twitter
                         </button>
                         <button
+                            @click="openLink('https://weibo.com/u/7664496284')"
+                            class="px-6 py-2 m-2 font-semibold rounded bg-violet-600 text-gray-50"
+                        >
+                            Arbitrum 微博
+                        </button>
+                        <button
                             @click="openLink('https://twitter.com/arbitrum_cn')"
                             class="px-6 py-2 m-2 font-semibold rounded bg-violet-600 text-gray-50"
                         >
