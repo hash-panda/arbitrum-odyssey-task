@@ -38,6 +38,15 @@ export const weekInfo = () => {
                     authorUrl: 'https://twitter.com/VIP8888883',
                 },
                 {
+                    date: '2022年6月24日',
+                    title: '第一周跨链桥：十几个跨链桥怎么选？怎么做最节省成本？',
+                    abstract: 'Arbitrum奥德赛超详细教程。0:00 简介，0:51 活动规则介绍，1:35 跨链桥的选择，3:21 实操演示（Bungee&Hop）~~',
+                    author: '鉴叔',
+                    type: 'video',
+                    url: 'https://www.youtube.com/watch?v=-0US1GGFS04',
+                    authorUrl: 'https://twitter.com/jianshubiji',
+                },
+                {
                     date: '2022年6月22日',
                     title: 'Arbitrum Odyssey奥德赛活动攻略',
                     abstract:
