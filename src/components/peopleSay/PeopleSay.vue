@@ -17,7 +17,7 @@ const props = defineProps({
             v-if="props.data?.length > 0"
             class="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10"
         >
-            <div v-for="(item, index) in props.data" :key="index" class="flex flex-col max-w-sm mx-4 shadow-lg">
+            <div v-for="(item, index) in props.data" :key="index" class="flex flex-col max-w-sm mx-4 shadow-lg my-2">
                 <div class="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
                     <p class="relative px-6 py-1 text-lg text-center text-gray-800">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" class="w-8 h-8 text-violet-600">

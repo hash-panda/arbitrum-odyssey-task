@@ -7,7 +7,7 @@ const openWeibo = () => {
 }
 </script>
 <template>
-    <div id="nav" class="py-3 pr-5 border-base-200 bg-base-100 text-base-content sticky inset-x-0 top-0 z-50 border-b">
+    <div id="nav" class="py-3 ml-2 pr-5 border-base-200 bg-base-100 text-base-content sticky inset-x-0 top-0 z-50 border-b">
         <div class="flex justify-between">
             <div class="flex">
                 <div class="flex items-center hover:cursor-pointer normal-case ml-0 md:ml-5">

@@ -8,7 +8,7 @@ const weeks = ref(weekInfo())
 </script>
 <template>
     <div>
-        <div class="mt-4 mx-48">
+        <div class="mt-4 lg:mx-48">
             <section class="text-gray-800 mb-3">
                 <div class="container mx-auto flex flex-col items-center py-12 px-4 text-center md:px-6 xl:max-w-1xl">
                     <h1 class="text-2xl font-bold leading-none sm:text-3xl">
@@ -71,18 +71,18 @@ const weeks = ref(weekInfo())
                             </article>
                         </div>
                     </div>
-                    <div class="mt-4">
+                    <div class="flex flex-wrap justify-center">
                         <button
                             @click="openLink('https://chainlist.org/zh')"
                             type="button"
-                            class="px-8 py-3 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
                         >
                             chainlist 添加 Arbitrum 网络
                         </button>
                         <button
                             @click="openLink('https://galaxy.eco/arbitrum')"
                             type="button"
-                            class="px-8 py-3 ml-2 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
                         >
                             Galaxy Arbitrum Space
                         </button>
