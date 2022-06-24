@@ -9,6 +9,15 @@ import PeopleSay from '@/components/peopleSay/PeopleSay.vue'
 const props = defineProps({
     weekTask: Object as any,
 })
+
+const ads = `<ins
+            class="adsbygoogle"
+            style="display: block"
+            data-ad-client="ca-pub-3309697225203061"
+            data-ad-slot="1890432407"
+            data-ad-format="auto"
+            data-full-width-responsive="true"
+        ></ins>`
 </script>
 <template>
     <div class="my-10 pb-10">
@@ -32,6 +41,7 @@ const props = defineProps({
                 :author-url="item.authorUrl"
             />
         </div>
+        <div v-html="ads"></div>
         <PeopleSay :data="props.weekTask.kolSay" />
     </div>
 </template>
