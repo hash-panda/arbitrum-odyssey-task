@@ -3,7 +3,7 @@ export const weekInfo = () => {
         {
             key: 'week1',
             label: '第 1 周',
-            range: '2022年6月22日 - 2022年6月27日',
+            range: '北京时间6月22日凌晨01:00 - 北京时间6月28日凌晨00:59',
             description:
                 '使用跨链桥将 ETH 跨链到 Arbitrum。将ETH资产（注意：仅支持ETH且不要求跨链金额）接入Arbitrum，您即可获得1枚NFT。此外，如果您使用的跨链桥是在跨链周内累计跨入Arbitrum网络的ETH交易量最多的桥，您还会额外获得1枚NFT。',
             galaxyLink: 'https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW',
@@ -75,6 +75,15 @@ export const weekInfo = () => {
                     url: 'https://www.youtube.com/watch?v=L1K2SU-ux8k',
                     authorUrl: 'https://weibo.com/u/1735433913',
                 },
+                {
+                    date: '2022年6月20日',
+                    title: 'Arbitrum 奥德赛 跨链桥周 Footprint 数据看板',
+                    abstract: '奥德赛跨链周数据看板~~~',
+                    author: '1chioku',
+                    type: 'article',
+                    url: 'https://www.footprint.network/@1chioku/Arbitrum-Odyssey',
+                    authorUrl: 'https://www.footprint.network/@1chioku',
+                },
             ],
             kolSay: [
                 {
@@ -96,7 +105,7 @@ export const weekInfo = () => {
         {
             key: 'week2',
             label: '第 2 周',
-            range: '2022年6月28日 - 2022年7月4日',
+            range: '北京时间6月28日凌晨01:00 - 北京时间7月5日凌晨00:59',
             status: '',
             description: 'Yield Protocol（借贷协议） 和 GMX（去中心化永续交易所）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -110,7 +119,7 @@ export const weekInfo = () => {
         {
             key: 'week3',
             label: '第 3 周',
-            range: '2022年7月5日 - 2022年7月11日',
+            range: '北京时间7月5日凌晨01:00 - 北京时间7月12日凌晨00:59',
             status: '',
             description: 'Aboard Exchange（永续衍生品合约协议）和 TofuNFT（多链 NFT 平台）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -124,7 +133,7 @@ export const weekInfo = () => {
         {
             key: 'week4',
             label: '第 4 周',
-            range: '2022年7月12日 - 2022年7月18日',
+            range: '北京时间7月12日凌晨01:00 - 北京时间7月19日凌晨00:59',
             status: '',
             description: 'ApeX Protocol（永续合约协议）和 Uniswap（DEX 平台）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -138,7 +147,7 @@ export const weekInfo = () => {
         {
             key: 'week5',
             label: '第 5 周',
-            range: '2022年7月19日 - 2022年7月25日',
+            range: '北京时间7月19日凌晨01:00 - 北京时间7月26日凌晨00:59',
             status: '',
             description: 'IZUMI Finance & YIN Finance（流动性优化协议）和 1inch（DEX 平台）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -153,7 +162,7 @@ export const weekInfo = () => {
         {
             key: 'week6',
             label: '第 6 周',
-            range: '2022年7月26日 - 2022年8月1日',
+            range: '北京时间7月26日凌晨01:00 - 北京时间8月2日凌晨00:59',
             status: '',
             description: 'Swapr（自动做市商）和 DODO（主动做市商）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -167,7 +176,7 @@ export const weekInfo = () => {
         {
             key: 'week7',
             label: '第 7 周',
-            range: '2022年8月2日 - 2022年8月8日',
+            range: '北京时间8月2日凌晨01:00 - 北京时间8月9日凌晨00:59',
             status: '',
             description: 'TreasureDAO（去中心化 NFT 系统）和 BattleFly（区块链游戏）',
             galaxyLink: 'https://galaxy.eco/arbitrum',
@@ -181,7 +190,7 @@ export const weekInfo = () => {
         {
             key: 'week8',
             label: '第 8 周',
-            range: '2022年8月9日 - 2022年8月15日',
+            range: '北京时间8月9日凌晨01:00 - 北京时间8月16日凌晨00:59',
             status: '',
             description: 'Idea Market（去中心化创意信息市场）和 SushiSwap（DEX 平台）',
             galaxyLink: 'https://galaxy.eco/arbitrum',

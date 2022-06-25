@@ -14,7 +14,7 @@ const weeks = ref(weekInfo())
                     <h1 class="text-2xl font-bold leading-none sm:text-3xl">
                         <span class="text-violet-600">奥德赛 8 周任务</span>
                     </h1>
-                    <div class="text-violet-600 mt-4 mb-2">( 2022年6月22日 - 2022年8月15日 )</div>
+                    <div class="text-violet-600 mt-4 mb-2">( 北京时间2022年6月22日01:00 - 北京时间2022年8月16日00:59 )</div>
                     <p class="px-8 my-4">Arbitrum 和 Galaxy 发起的为期8周的活动。完成16个任务中的13个，将获得终极NFT。</p>
                     <!-- https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW -->
                     <div class="flex flex-wrap justify-center">
@@ -51,9 +51,9 @@ const weeks = ref(weekInfo())
                     </div>
                     <p class="px-8 mt-4 mb-4 text">打赏一些让开发者也可以参与项目~~</p>
                     <p class="text-violet-600">0xb5c5D73D0444048304f27624320C37b77B7A9BCF</p>
-                    <div class="my-4">
-                        <div class="max-w-md p-6 overflow-hidden rounded-lg shadow bg-gray-50 text-gray-800">
-                            <article>
+                    <div class="my-4 container grid grid-cols-1 gap-6 sm:grid-cols-2">
+                        <div class="p-6 overflow-hidden rounded-lg shadow bg-gray-50 text-gray-800">
+                            <article class="mx-1">
                                 <button
                                     class="text-xl font-bold hover:text-violet-600 underline"
                                     @click="
@@ -67,6 +67,23 @@ const weeks = ref(weekInfo())
                                 <p class="mt-4 text-gray-600">
                                     Includes: Hop Protocol, Socket Bungee, Celer Network, Across Protocol, Multichain, Composable, Connext Xpollinate,
                                     Hashflow, BoringDAO, DeBridge, DeGate, Router, and Lifi Protocol. Please use the data on your own risk
+                                </p>
+                            </article>
+                        </div>
+                        <div class="p-6 overflow-hidden rounded-lg shadow bg-gray-50 text-gray-800">
+                            <article class="mx-1">
+                                <button
+                                    class="text-xl font-bold hover:text-violet-600 underline"
+                                    @click="
+                                        openLink(
+                                            'https://mirror.xyz/0xc5a564961b5075Bde102a1f0C8606183ea9bBAa8/OaHlRX-WSyEkh8cOxifPqd2YyZ-9jzyZWd7uw25A5QQ',
+                                        )
+                                    "
+                                >
+                                    自建Arbitrum-rpc教程
+                                </button>
+                                <p class="mt-4 text-gray-600">
+                                    当Arbitrum官网默认rpc节点不能使用，或特别拥堵时，拥有独立运行的rpc节点，能保证自己的各种交易不受影响。用第三方节点提供商（炼金术）建设自己的rpc非常快，只需几步即可快速拥有。
                                 </p>
                             </article>
                         </div>
@@ -85,6 +102,20 @@ const weeks = ref(weekInfo())
                             class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
                         >
                             Galaxy Arbitrum Space
+                        </button>
+                        <button
+                            @click="openLink('https://arbiscan.io/')"
+                            type="button"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                        >
+                            Arbitrum 资源管理器
+                        </button>
+                        <button
+                            @click="openLink('https://offchainlabs.com/')"
+                            type="button"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                        >
+                            Arbitrum 官网
                         </button>
                     </div>
                 </div>
