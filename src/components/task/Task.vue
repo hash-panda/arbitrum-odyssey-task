@@ -29,7 +29,7 @@ const props = defineProps({
             <div class="mt-1 text-violet-600">{{ props.range }}</div>
             <p class="px-8 mt-4 mb-12 text-lg" v-html="props.description"></p>
             <!-- https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW -->
-            <div class="flex flex-wrap justify-center">
+            <div class="flex flex-wrap justify-center gap-3">
                 <button
                     v-for="(item, index) in props.url"
                     :key="index"

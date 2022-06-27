@@ -9,7 +9,11 @@ export const weekInfo = () => {
             endTime: '2022-06-28 00:59',
             description:
                 '使用跨链桥将 ETH 跨链到 Arbitrum。将ETH资产（注意：仅支持ETH且不要求跨链金额）接入Arbitrum，您即可获得1枚NFT。此外，如果您使用的跨链桥是在跨链周内累计跨入Arbitrum网络的ETH交易量最多的桥，您还会额外获得1枚NFT。',
-            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW' }],
+            galaxyLink: [
+                { label: 'Galaxy Arbitrum 领取 NFT', link: 'https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW' },
+                { label: 'Galaxy hop 领取 NFT', link: 'https://galaxy.eco/HopProtocol/campaign/GCmydUtumN' },
+                { label: 'Galaxy imtoken 领取 NFT', link: 'https://galaxy.eco/imToken/campaign/GCekdUt1tE' },
+            ],
             status: 'current',
             appInfo: [
                 { title: 'Bungee', description: '跨链聚合器', url: 'https://bungee.exchange/' },
