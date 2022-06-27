@@ -122,6 +122,16 @@ export const weekInfo = () => {
             ],
             articles: [
                 {
+                    date: '2022年6月28日',
+                    title: '奥德赛第二周任务详细教程Yield Protocol（借贷协议） 和 GMX（去中心化永续交易所）',
+                    abstract:
+                        '活动周期为8周，于6月28日开启第二周任务，主要包括Yield Protocol（借贷协议） 和 GMX（去中心化永续交易所）两个项目。目前理解如果做了Yield Protocol（借贷协议）可以拿到一个NFT。要获得独家Arbi-verse NFT，参与者需要在 GMX 平台上完成以下所有三项任务，也就是说想要获得两个NFT，必须全部完成。',
+                    author: '社会主义接班人',
+                    type: 'article',
+                    url: 'https://mirror.xyz/0x5B8c65ffa85fF42695B2f96A3B6eB6E45BBB4AdD/SbKp3MG3lJK2kiYF9KrRRJrmxrYLCaAm4Q6DKsqn9S0',
+                    authorUrl: 'https://twitter.com/VIP8888883',
+                },
+                {
                     date: '2022年6月27日',
                     title: 'medium: GMX Arbitrum Odyssey(奥德赛 GMX 第二周任务说明)',
                     abstract:
