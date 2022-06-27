@@ -27,7 +27,7 @@ const props = defineProps({
                 <span class="text-violet-600">{{ props.title }}</span>
             </h1>
             <div class="mt-1 text-violet-600">{{ props.range }}</div>
-            <p class="px-8 mt-4 mb-12 text-lg">{{ props.description }}</p>
+            <p class="px-8 mt-4 mb-12 text-lg" v-html="props.description"></p>
             <!-- https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW -->
             <button
                 type="button"

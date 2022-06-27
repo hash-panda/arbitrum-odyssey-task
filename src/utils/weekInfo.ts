@@ -1,3 +1,5 @@
+import { openLink } from '.'
+
 export const weekInfo = () => {
     return [
         {
@@ -109,13 +111,27 @@ export const weekInfo = () => {
             range: '北京时间6月28日凌晨01:00 - 北京时间7月5日凌晨00:59',
             endTime: '2022-07-05 00:59',
             status: '',
-            description: 'Yield Protocol（借贷协议） 和 GMX（去中心化永续交易所）',
+            description:
+                'Yield Protocol（借贷协议）<br /><br /> GMX（去中心化永续交易所）：<br />① 在 <span class="text-violet-600">https://gmx.io/trade</span> 开立一个杠杆交易；<br />② 在 <span class="text-violet-600">https://gmx.io/trade</span> 做一个swap；<br />③ 在 <span class="text-violet-600">https://gmx.io/buy</span> 铸造GLP。',
             galaxyLink: 'https://galaxy.eco/arbitrum',
             appInfo: [
                 { title: 'Yield Protocol', description: '借贷协议', url: 'https://yieldprotocol.com/' },
                 { title: 'gmx', description: '去中心化永续交易所', url: 'https://gmx.io' },
+                { title: 'gmx-trade', description: 'GMX swap', url: 'https://gmx.io/trade' },
+                { title: 'gmx-buy', description: 'GMX 铸造 GLP', url: 'https://gmx.io/buy' },
             ],
-            articles: [],
+            articles: [
+                {
+                    date: '2022年6月27日',
+                    title: 'medium: GMX Arbitrum Odyssey(奥德赛 GMX 第二周任务说明)',
+                    abstract:
+                        'GMX将在本周的Arbitrum Odyssey活动中亮相。为了获得独家的Arbi-verse NFT，参与者需要在GMX平台上完成以下所有三个任务。1. 在 https://gmx.io/trade 开立一个杠杆交易；2. 在https://gmx.io/trade 做一个swap；3. 在 https://gmx.io/buy 铸造GLP',
+                    author: 'GMX官方',
+                    type: 'article',
+                    url: 'https://medium.com/@gmx.io/gmx-arbitrum-odyssey-fc12cba2d10d',
+                    authorUrl: 'https://twitter.com/GMX_IO/status/1541408600760807424',
+                },
+            ],
             kolSay: [],
         },
         {
