@@ -11,6 +11,11 @@ const currentWeek = computed(() => {
     if (nextWeekIndex < 0) nextWeekIndex = 0
     return weeks.value[nextWeekIndex].key
 })
+
+// 活动是否还未结束
+const isTaskActive = computed(() => {
+    return dayjs().isBefore('2022-08-16 00:59')
+})
 </script>
 <template>
     <div>
@@ -129,7 +134,7 @@ const currentWeek = computed(() => {
             <n-tabs type="segment" :default-value="currentWeek">
                 <n-tab-pane v-for="item in weeks" :key="item.key" :name="item.key">
                     <template #tab>
-                        <n-badge v-if="item.key === currentWeek" dot processing type="success">
+                        <n-badge v-if="isTaskActive && item.key === currentWeek" dot processing type="success">
                             {{ item.label }}
                         </n-badge>
                         <div v-else>
