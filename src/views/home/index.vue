@@ -50,13 +50,13 @@ const isTaskActive = computed(() => {
                         </button>
                         <button
                             @click="openLink('https://twitter.com/mr7s1990')"
-                            class="px-6 py-2 m-2 border rounded text-gray-900 border-gray-300 text-violet-600 border border-violet-600"
+                            class="px-6 py-2 m-2 border rounded border-gray-300 text-violet-600 border border-violet-600 hover:bg-violet-600 hover:text-gray-50"
                         >
                             我的推特
                         </button>
                         <button
                             @click="openLink('https://weibo.com/u/7565123862')"
-                            class="px-6 py-2 m-2 border rounded text-gray-900 border-gray-300 text-violet-600 border border-violet-600"
+                            class="px-6 py-2 m-2 border rounded border-gray-300 text-violet-600 border border-violet-600 hover:bg-violet-600 hover:text-gray-50"
                         >
                             我的微博
                         </button>
@@ -104,28 +104,28 @@ const isTaskActive = computed(() => {
                         <button
                             @click="openLink('https://chainlist.org/zh')"
                             type="button"
-                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800 hover:border-violet-600 hover:text-violet-600"
                         >
                             chainlist 添加 Arbitrum 网络
                         </button>
                         <button
                             @click="openLink('https://galaxy.eco/arbitrum')"
                             type="button"
-                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800 hover:border-violet-600 hover:text-violet-600"
                         >
                             Galaxy Arbitrum Space
                         </button>
                         <button
                             @click="openLink('https://arbiscan.io/')"
                             type="button"
-                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800 hover:border-violet-600 hover:text-violet-600"
                         >
                             Arbitrum 资源管理器
                         </button>
                         <button
                             @click="openLink('https://offchainlabs.com/')"
                             type="button"
-                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800"
+                            class="px-8 py-3 m-2 font-semibold border rounded border-gray-800 text-gray-800 hover:border-violet-600 hover:text-violet-600"
                         >
                             Arbitrum 官网
                         </button>
