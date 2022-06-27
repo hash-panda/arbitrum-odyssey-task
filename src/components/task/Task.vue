@@ -11,7 +11,7 @@ const props = defineProps({
         default: '',
     },
     url: {
-        type: String,
+        type: Object,
         default: '',
     },
     range: {
@@ -29,18 +29,22 @@ const props = defineProps({
             <div class="mt-1 text-violet-600">{{ props.range }}</div>
             <p class="px-8 mt-4 mb-12 text-lg" v-html="props.description"></p>
             <!-- https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW -->
-            <button
-                type="button"
-                class="relative px-8 py-4 ml-4 overflow-hidden font-semibold rounded bg-gray-800 text-gray-50"
-                @click="openLink(props.url)"
-            >
-                Galaxy 领取 NFT
-                <span
-                    class="absolute top-0 right-0 px-5 py-1 text-xs tracking-wider text-center uppercase whitespace-no-wrap origin-bottom-left transform rotate-45 -translate-y-full translate-x-1/3 bg-violet-600"
+            <div class="flex flex-wrap justify-center">
+                <button
+                    v-for="(item, index) in props.url"
+                    :key="index"
+                    type="button"
+                    class="relative px-8 py-4 ml-4 overflow-hidden font-semibold rounded bg-gray-800 text-gray-50"
+                    @click="openLink(item.link)"
                 >
-                    热
-                </span>
-            </button>
+                    {{ item.label }}
+                    <span
+                        class="absolute top-0 right-0 px-5 py-1 text-xs tracking-wider text-center uppercase whitespace-no-wrap origin-bottom-left transform rotate-45 -translate-y-full translate-x-1/3 bg-violet-600"
+                    >
+                        热
+                    </span>
+                </button>
+            </div>
         </div>
     </section>
 </template>

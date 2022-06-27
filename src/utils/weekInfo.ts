@@ -9,7 +9,7 @@ export const weekInfo = () => {
             endTime: '2022-06-28 00:59',
             description:
                 '使用跨链桥将 ETH 跨链到 Arbitrum。将ETH资产（注意：仅支持ETH且不要求跨链金额）接入Arbitrum，您即可获得1枚NFT。此外，如果您使用的跨链桥是在跨链周内累计跨入Arbitrum网络的ETH交易量最多的桥，您还会额外获得1枚NFT。',
-            galaxyLink: 'https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum/campaign/GCCNzUtQiW' }],
             status: 'current',
             appInfo: [
                 { title: 'Bungee', description: '跨链聚合器', url: 'https://bungee.exchange/' },
@@ -113,7 +113,10 @@ export const weekInfo = () => {
             status: '',
             description:
                 'Yield Protocol（借贷协议）<br /><br /> GMX（去中心化永续交易所）：<br />① 在 <span class="text-violet-600">https://gmx.io/trade</span> 开立一个杠杆交易；<br />② 在 <span class="text-violet-600">https://gmx.io/trade</span> 做一个swap；<br />③ 在 <span class="text-violet-600">https://gmx.io/buy</span> 铸造GLP。',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [
+                { label: 'Galaxy 领取 NFT(Yield)', link: 'https://galaxy.eco/arbitrum/campaign/GCaigUt9HD' },
+                { label: 'Galaxy 领取 NFT(GMX)', link: 'https://galaxy.eco/arbitrum/campaign/GCsqgUtsTX' },
+            ],
             appInfo: [
                 { title: 'Yield Protocol', description: '借贷协议', url: 'https://yieldprotocol.com/' },
                 { title: 'gmx', description: '去中心化永续交易所', url: 'https://gmx.io' },
@@ -151,7 +154,7 @@ export const weekInfo = () => {
             endTime: '2022-07-12 00:59',
             status: '',
             description: 'Aboard Exchange（永续衍生品合约协议）和 TofuNFT（多链 NFT 平台）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'Aboard Exchange', description: '永续衍生品合约协议', url: 'https://aboard.exchange' },
                 { title: 'TofuNFT', description: '多链 NFT 平台', url: 'https://tofunft.com' },
@@ -166,7 +169,7 @@ export const weekInfo = () => {
             endTime: '2022-07-19 00:59',
             status: '',
             description: 'ApeX Protocol（永续合约协议）和 Uniswap（DEX 平台）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'ApeX Protocol', description: '永续合约协议', url: 'https://tofunft.com' },
                 { title: 'Uniswap', description: 'DEX 平台', url: 'https://app.uniswap.org' },
@@ -181,7 +184,7 @@ export const weekInfo = () => {
             endTime: '2022-07-26 00:59',
             status: '',
             description: 'IZUMI Finance & YIN Finance（流动性优化协议）和 1inch（DEX 平台）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'IZUMI Finance', description: '流动性优化协议', url: 'https://izumi.finance' },
                 { title: 'YIN Finance', description: '流动性优化协议', url: 'https://yin.finance' },
@@ -197,7 +200,7 @@ export const weekInfo = () => {
             endTime: '2022-08-02 00:59',
             status: '',
             description: 'Swapr（自动做市商）和 DODO（主动做市商）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'Swapr', description: '自动做市商', url: 'https://swapr.eth.limo/' },
                 { title: 'DODO', description: '主动做市商', url: 'https://dodoex.io' },
@@ -212,7 +215,7 @@ export const weekInfo = () => {
             endTime: '2022-08-09 00:59',
             status: '',
             description: 'TreasureDAO（去中心化 NFT 系统）和 BattleFly（区块链游戏）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'TreasureDAO', description: '去中心化 NFT 系统', url: 'https://www.treasure.lol' },
                 { title: 'BattleFly', description: '区块链游戏', url: 'https://www.battlefly.game' },
@@ -227,7 +230,7 @@ export const weekInfo = () => {
             endTime: '2022-08-16 00:59',
             status: '',
             description: 'Idea Market（去中心化创意信息市场）和 SushiSwap（DEX 平台）',
-            galaxyLink: 'https://galaxy.eco/arbitrum',
+            galaxyLink: [{ label: 'Galaxy 领取 NFT', link: 'https://galaxy.eco/arbitrum' }],
             appInfo: [
                 { title: 'Idea Market', description: '去中心化创意信息市场', url: 'https://ideamarket.io' },
                 { title: 'SushiSwap', description: 'DEX 平台', url: 'https://www.sushi.com' },
