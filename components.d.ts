@@ -11,6 +11,7 @@ declare module 'vue' {
     FavoritesFavorites: typeof import('./src/components/favorites/Favorites.vue')['default']
     FooterFooter: typeof import('./src/components/footer/Footer.vue')['default']
     MessageMessage: typeof import('./src/components/message/Message.vue')['default']
+    NAlert: typeof import('naive-ui')['NAlert']
     NAnchor: typeof import('naive-ui')['NAnchor']
     NAnchorLink: typeof import('naive-ui')['NAnchorLink']
     NAvatar: typeof import('naive-ui')['NAvatar']

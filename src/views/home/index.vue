@@ -20,6 +20,7 @@ const isTaskActive = computed(() => {
 <template>
     <div>
         <div class="mt-4 mx-1 md:mx-4 lg:mx-48">
+            <n-alert v-if="!isTaskActive" title="奥德赛活动已结束！" type="warning"></n-alert>
             <section class="text-gray-800 mb-3">
                 <div class="container mx-auto flex flex-col items-center py-12 px-4 text-center md:px-6 xl:max-w-1xl">
                     <h1 class="text-2xl font-bold leading-none sm:text-3xl">
