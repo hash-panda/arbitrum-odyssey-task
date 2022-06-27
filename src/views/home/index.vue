@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import WeekTask from '@/components/weekTask/WeekTask.vue'
 import { openLink } from '@/utils'
 import { weekInfo } from '@/utils/weekInfo'
+import dayjs from 'dayjs'
 
 const weeks = ref(weekInfo())
+const currentWeek = computed(() => {
+    let nextWeekIndex = weeks.value.findIndex(v => dayjs().isBefore(v.endTime))
+    if (nextWeekIndex < 0) nextWeekIndex = 0
+    return weeks.value[nextWeekIndex].key
+})
 </script>
 <template>
     <div>
@@ -120,13 +126,10 @@ const weeks = ref(weekInfo())
                     </div>
                 </div>
             </section>
-            <n-tabs type="segment">
+            <n-tabs type="segment" :default-value="currentWeek">
                 <n-tab-pane v-for="item in weeks" :key="item.key" :name="item.key">
                     <template #tab>
-                        <n-badge v-if="item.status === 'expire'" dot color="grey">
-                            {{ item.label }}
-                        </n-badge>
-                        <n-badge v-else-if="item.status === 'current'" dot processing type="success">
+                        <n-badge v-if="item.key === currentWeek" dot processing type="success">
                             {{ item.label }}
                         </n-badge>
                         <div v-else>
