@@ -108,7 +108,7 @@ export const weekInfo = () => {
         {
             key: 'week2',
             label: '第 2 周',
-            range: '北京时间6月29日13:00 - 北京时间7月5日凌晨00:59',
+            range: '北京时间6月29日凌晨01:00 - 北京时间7月5日凌晨00:59',
             endTime: '2022-07-05 00:59',
             status: '',
             description:
