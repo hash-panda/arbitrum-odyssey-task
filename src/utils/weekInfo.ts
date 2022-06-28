@@ -126,8 +126,29 @@ export const weekInfo = () => {
                 { title: 'gmx', description: '去中心化永续交易所', url: 'https://gmx.io/?ref=geekdao' },
                 { title: 'gmx-trade', description: '使用我的码geekdao享受5%佣金返还', url: 'https://gmx.io/trade?ref=geekdao' },
                 { title: 'gmx-buy', description: '该链接享受5%佣金返还', url: 'https://gmx.io/buy?ref=geekdao' },
+                { title: 'TokenPocket', description: '多链钱包，区块链入口', url: 'https://www.tokenpocket.pro/' },
             ],
             articles: [
+                {
+                    date: '2022年6月28日',
+                    title: '【TokenPocket】第2周--在Yield Protocol上完成交互',
+                    abstract:
+                        '交互資金儲備：110U等值ETH，150U等值USDC.如何在TokenPocket中創建/導入/同步Arbitrum錢包？打開TokenPocket錢包，選擇Arbitrum網絡，切換至【發現】頁面，選擇Yield Protocol；或在發現頁面輸入“https://app.yieldprotocol.com”',
+                    author: 'TokenPocket 官方',
+                    type: 'article',
+                    url: 'https://theodore-ratliff.gitbook.io/share/CN/Odyssey/yield-protocol',
+                    authorUrl: 'https://twitter.com/TokenPocket_TP',
+                },
+                {
+                    date: '2022年6月28日',
+                    title: '【TokenPocket】第2周--在GMX上完成交互',
+                    abstract:
+                        '交互資金儲備：50U等值ETH.如何在TokenPocket中創建/導入/同步Arbitrum錢包？打開TokenPocket錢包，選擇Arbitrum網絡，切換至【發現】頁面，選擇GMX；或在發現頁面輸入“https://gmx.financial/trade”',
+                    author: 'TokenPocket 官方',
+                    type: 'article',
+                    url: 'https://theodore-ratliff.gitbook.io/share/CN/Odyssey/gmx',
+                    authorUrl: 'https://twitter.com/TokenPocket_TP',
+                },
                 {
                     date: '2022年6月28日',
                     title: '奥德赛第二周任务详细教程Yield Protocol（借贷协议） 和 GMX（去中心化永续交易所）',
