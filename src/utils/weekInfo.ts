@@ -116,16 +116,16 @@ export const weekInfo = () => {
             endTime: '2022-07-05 00:59',
             status: '',
             description:
-                'Yield Protocol（借贷协议）<br /><br /> GMX（去中心化永续交易所）：<br />① 在 <span class="text-violet-600">https://gmx.io/trade</span> 开立一个杠杆交易；<br />② 在 <span class="text-violet-600">https://gmx.io/trade</span> 做一个swap；<br />③ 在 <span class="text-violet-600">https://gmx.io/buy</span> 铸造GLP。',
+                'Yield Protocol（借贷协议）<br /><br /> GMX（去中心化永续交易所）：<br /><div style="color: red">使用我的码geekdao享受5%佣金返还,https://gmx.io/?ref=geekdao</div><br />① 在 <span class="text-violet-600">https://gmx.io/trade?ref=geekdao</span> 开立一个杠杆交易；<br />② 在 <span class="text-violet-600">https://gmx.io/trade?ref=geekdao</span> 做一个swap；<br />③ 在 <span class="text-violet-600">https://gmx.io/buy?ref=geekdao</span> 铸造GLP。',
             galaxyLink: [
                 { label: 'Galaxy 领取 NFT(Yield)', link: 'https://galaxy.eco/arbitrum/campaign/GCaigUt9HD' },
                 { label: 'Galaxy 领取 NFT(GMX)', link: 'https://galaxy.eco/arbitrum/campaign/GCsqgUtsTX' },
             ],
             appInfo: [
                 { title: 'Yield Protocol', description: '借贷协议', url: 'https://yieldprotocol.com/' },
-                { title: 'gmx', description: '去中心化永续交易所', url: 'https://gmx.io' },
-                { title: 'gmx-trade', description: 'GMX swap', url: 'https://gmx.io/trade' },
-                { title: 'gmx-buy', description: 'GMX 铸造 GLP', url: 'https://gmx.io/buy' },
+                { title: 'gmx', description: '去中心化永续交易所', url: 'https://gmx.io/?ref=geekdao' },
+                { title: 'gmx-trade', description: '使用我的码geekdao享受5%佣金返还', url: 'https://gmx.io/trade?ref=geekdao' },
+                { title: 'gmx-buy', description: '该链接享受5%佣金返还', url: 'https://gmx.io/buy?ref=geekdao' },
             ],
             articles: [
                 {
