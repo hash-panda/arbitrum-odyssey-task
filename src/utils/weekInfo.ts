@@ -149,7 +149,15 @@ export const weekInfo = () => {
                     authorUrl: 'https://twitter.com/GMX_IO/status/1541408600760807424',
                 },
             ],
-            kolSay: [],
+            kolSay: [
+                {
+                    author: '何币呢',
+                    url: 'https://twitter.com/hefeifan119/status/1541577028054286336',
+                    avatar: 'https://pbs.twimg.com/profile_images/1447364970694336514/9Zeofk2y_400x400.jpg',
+                    content:
+                        '奥德赛第二周任务所需gas计算：①、Yeild ： 51Usdc资金 + 3U gas ②、GMX：1. swap。2. 授权 + 开仓  + 平仓。3. 买LP  + 卖LP。6次Gas 为 7-9U ，资金占用为24Usdc，快照方式未知。汇总： 单号Gas：10-12U，资金占用75Usdc，百号Gas：1000-1200U，资金占用7500Usdc（转发自微信群）',
+                },
+            ],
         },
         {
             key: 'week3',
