@@ -22,7 +22,7 @@ const isTaskActive = computed(() => {
         <div class="mt-4 mx-1 md:mx-4 lg:mx-48">
           <div class="flex flex-col justify-center items-center">
             <div class="text-primary animate-bounce">点我打开↓↓↓↓↓↓</div>
-            <button class="btn btn-primary mb-4 animate-pulse" @click="openLink('https://conut.xyz?source=odyssey')">L2多账户分析平台，包括 zkSync、Base、StarkNet、Scroll、Linea 等二层网络</button>
+            <button class="btn btn-success mb-4 animate-pulse" @click="openLink('https://conut.xyz?source=odyssey')">L2多账户分析平台，包括 zkSync、Base、StarkNet、Scroll、Linea 等二层网络</button>
           </div>
             <n-alert v-if="!isTaskActive" title="奥德赛活动已结束！" type="warning"></n-alert>
             <section class="text-gray-800 mb-3">
