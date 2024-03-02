@@ -1,13 +1,26 @@
 {
     "name": "arbitrum-odyssey-task",
-    "version": "1.0.1",
+    "version": "1.0.8",
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc --noEmit && vite build",
         "lint": "eslint ./",
         "lint:fix": "eslint ./ --fix --ext .ts,.tsx,.vue",
         "fix": "prettier --write .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "test": "echo `test`"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hash-panda/arbitrum-odyssey-task.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "homepage": "https://arbitrum-odyssey-task.vercel.app",
+    "bugs": {
+      "url": "https://github.com/hash-panda/arbitrum-odyssey-task/issues"
     },
     "dependencies": {
         "@headlessui/vue": "^1.6.1",
